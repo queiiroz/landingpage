@@ -1,0 +1,36 @@
+# 💻 #ONEBITCODE - Landing Page
+
+<img src="" />
+
+<div align="center">
+
+[🚀 Acesse aqui]()
+
+</div>
+
+## 💻 O Evento (LANDING PAGE)
+
+Nessa série eu irei criar um site completo do zero, passando pelo desenvolvimento do site na versão web e também na versão Mobile.
+
+## 🎨 Layout do projeto
+
+Este é o <a href="https://www.figma.com/file/76GJ4uK7PyKeAo6dcpVyjA/Tom's-Jazz-School?node-id=0%3A1">layout do projeto</a> no Figma.
+
+## 🛠 Tecnologias
+
+- HTML
+- CSS
+- Git
+- Figma
+- GitHub
+
+<table>
+  <tr>
+    <td>
+     <img src="./assets/avatar-gleidsonqueiroz.png" alt="Avatar gleidson queiroz" width="100px"/>
+    </td>
+    <td>
+      Feito por Gleidson Queiroz.</a> 🙋🏼‍♂️
+    </td>
+  </tr>
+</table>
