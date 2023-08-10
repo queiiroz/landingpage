@@ -15,35 +15,39 @@
   </head>
   <body>
     <header>
-      <img src="./assets/logo.svg" alt="Tom's Jass School" />
-      <nav class="mt-1 mx-auto">
-        <a href="#" target="_blank">Início</a>
-        <a href="#" target="_blank">Cursos</a>
-        <a href="#" target="_blank">Eventos</a>
-        <a href="#" target="_blank">Contato</a>
-      </nav>
-      <a href="#" class="button mt-1 mx-auto mb-1" target="_blank"
-        >Se Inscreva</a
-      >
+      <div class="container">
+        <img src="./assets/logo.svg" alt="Tom's Jass School" />
+        <nav>
+          <a href="#" target="_blank">Início</a>
+          <a href="#" target="_blank">Cursos</a>
+          <a href="#" target="_blank">Eventos</a>
+          <a href="#" target="_blank">Contato</a>
+        </nav>
+        <a href="#" class="button mt-1 mx-auto mb-1" target="_blank"
+          >Se Inscreva</a
+        >
+      </div>
     </header>
     <main>
       <section class="hero-section">
-        <img src="./assets/hero-img.svg" alt="Banda de jazz tocando" />
-        <div>
-          <h1 class="mt-2">
-            Crie algo <span class="text-orange decoration">impactante</span> com
-            música
-          </h1>
-          <p class="mt-2 mb-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <a href="#" class="button">Comece agora</a>
+        <div class="container row-reverse">
+          <img src="./assets/hero-img.svg" alt="Banda de jazz tocando" />
+          <div>
+            <h1 class="mt-2">
+              Crie algo
+              <span class="text-orange decoration">impactante</span> com música
+            </h1>
+            <p class="mt-2 mb-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="button">Comece agora</a>
+          </div>
         </div>
       </section>
       <section class="courses-section">
         <div class="cards">
-          <article>
+          <article class="card">
             <img src="./assets/piano.png" alt="icone de piano" />
             <strong>Piano popular</strong>
             <p>
@@ -56,7 +60,7 @@
                 alt="ir para pagina do cursos"
             /></a>
           </article>
-          <article>
+          <article class="card">
             <img src="./assets/clef.png" alt="icone de clave de sol" />
             <strong>Teoria musical</strong>
             <p>
@@ -69,7 +73,7 @@
                 alt="ir para pagina do cursos"
             /></a>
           </article>
-          <article>
+          <article class="card">
             <img src="./assets/sax.png" alt="icone de sax" />
             <strong>Sax alto</strong>
             <p>
@@ -82,7 +86,7 @@
                 alt="ir para pagina do cursos"
             /></a>
           </article>
-          <article>
+          <article class="card">
             <img src="./assets/drums.png" alt="icone de bateria" />
             <strong>Piano popular</strong>
             <p>
@@ -97,36 +101,46 @@
           </article>
         </div>
 
-        <h2>E <span class="text-orange">vários</span> outros!</h2>
-        <a href="#" class="button">Conhecer cursos</a>
+        <h2 class="text-center">
+          E <span class="text-orange">vários</span> outros!
+        </h2>
+        <a href="#" class="button mt-2 mx-auto">Conhecer cursos</a>
       </section>
     </main>
     <footer>
-      <div>
-        <img src="./assets/logo.svg" alt="tom's jass school" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-      <div>
+      <div class="container">
+        <div class="about-column">
+          <img
+            src="./assets/logo.svg"
+            class="mb-1 mt-1"
+            alt="tom's jass school"
+          />
+          <p class="mb-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
         <nav>
           <a href="#" target="_blank">Início</a>
           <a href="#" target="_blank">Cursos</a>
           <a href="#" target="_blank">Eventos</a>
           <a href="#" target="_blank">Contato</a>
         </nav>
+
+        <form class="newsletter-form">
+          <label for="email" class="mb-1 mt-1"
+            >Receba materiais gratuitos no seu email</label
+          >
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Digite seu email"
+          />
+          <a href="#" class="button mt-2">Quero receber</a>
+        </form>
       </div>
-      <form>
-        <label for="email">Receba materiais gratuitos no seu email</label>
-        <input
-          type="text"
-          name="email"
-          id="email"
-          placeholder="Digite seu email"
-        />
-        <a href="#" class="button">Quero receber</a>
-      </form>
     </footer>
   </body>
 </html>
