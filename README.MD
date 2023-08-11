@@ -1,16 +1,16 @@
 # 💻 #ONEBITCODE - Landing Page
 
-<img src="" />
+<img src="./assets/imagem-do-site.png" />
 
 <div align="center">
 
-[🚀 Acesse aqui]()
+[🚀 Acesse aqui](https://queirozlanding.vercel.app/)
 
 </div>
 
 ## 💻 O Evento (LANDING PAGE)
 
-Nessa série eu irei criar um site completo do zero, passando pelo desenvolvimento do site na versão web e também na versão Mobile.
+Nessa série eu criei um site completo do zero, passando pelo desenvolvimento do site na versão web e também na versão Mobile.
 
 ## 🎨 Layout do projeto
 
