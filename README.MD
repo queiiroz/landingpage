@@ -20,8 +20,8 @@ Este é o <a href="https://www.figma.com/file/76GJ4uK7PyKeAo6dcpVyjA/Tom's-Jazz-
 
 - HTML
 - CSS
-- Git
 - Figma
+- Git
 - GitHub
 
 <table>
